@@ -1,0 +1,28 @@
+@media (max-width: 767px) {
+	#title {
+		text-align: center;
+		height: 50%!important;
+	}
+	#container-banner{
+		display: flex;
+		align-items: flex-end;
+		height: 40%!important;
+		width: 70%!important;
+	}
+	/*#banner{
+		margin-bottom: -5%!important;
+	}*/
+	#row-banner{
+		/*display: flex;*/
+		
+		justify-content: flex-end!important;
+		align-items: flex-end!important;
+	}
+}
+@media (min-width: 1199px) {
+	#title {
+		white-space: nowrap!important;
+	}
+
+		
+}
