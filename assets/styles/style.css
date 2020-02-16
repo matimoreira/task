@@ -1,9 +1,18 @@
+html{
+	scroll-behavior: smooth;
+}
 @media (max-width: 767px) {
-	#title {
+	/*.row-mobile{
+		display: block!important;
+	}
+	.row-desktop{
+		display: none!important;
+	}*/
+	#title, #title-contact {
 		text-align: center;
 		height: 50%!important;
 	}
-	#container-banner{
+	#container-banner, #container-banner-contact{
 		display: flex;
 		align-items: flex-end;
 		height: 40%!important;
@@ -12,15 +21,48 @@
 	/*#banner{
 		margin-bottom: -5%!important;
 	}*/
+	#row-banner, #row-banner-contact{
+		/*display: flex;*/
+		
+		justify-content: flex-end!important;
+		align-items: flex-end!important;
+	}
+	#carouselExampleFade{
+		width: 100%!important;
+	}
+}
+@media (max-width: 991px) {
+	.navbar-center{
+		display: flex!important;
+		flex-direction: column!important;
+		justify-content: flex-start!important;
+		align-items: flex-start!important;
+		color: white!important;
+	}
+	#navbar{
+		background: rgba(212, 213, 214, 0.7)!important;
+	}
+	#container-banner{
+		display: flex;
+		align-items: flex-end;
+		height: 40%!important;
+		width: 70%!important;
+	}
 	#row-banner{
 		/*display: flex;*/
 		
 		justify-content: flex-end!important;
 		align-items: flex-end!important;
 	}
+	/*.row-desktop{
+		display: none!important;
+	}
+	.row-mobile{
+		display: contents!important;
+	}*/
 }
 @media (min-width: 1199px) {
-	#title {
+	#title, #title-contact {
 		white-space: nowrap!important;
 	}
 
